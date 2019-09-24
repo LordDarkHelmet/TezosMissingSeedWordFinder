@@ -377,7 +377,7 @@ parser = argparse.ArgumentParser(description='Tezos Missing Seed Word Finder')
 args, myArgs = parser.parse_known_args()
 
 if len(myArgs) != 4:
-    sys.stderr.write("Usage: %s \'mnemonic data (15 words)\' \'email\' \'public key\'\n" % sys.argv[0])
+    sys.stderr.write("Usage: %s \'mnemonic data (14 words)\' \'email\' \'public key\'\n" % sys.argv[0])
     sys.stderr.write("""\nExample: python3 %s 'piece tag panther file invest spread rural rude rally sweet lava goose tuna confirm' 'TezosHelp@outlook.com' 'tz1KsyixYbCqXrr8vjckmLDLYBkwGWv46PYZ' '@Fluffy1234'\n""" % sys.argv[0])
     sys.exit(-1)
 
