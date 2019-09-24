@@ -30,7 +30,7 @@ Please note that running this requires you to type in your private information, 
 
 Usage: 
 ```
-TezosMissingSeedWordFinder.py 'mnemonic data (15 words)' 'email' 'public key'
+TezosMissingSeedWordFinder.py 'mnemonic data (14 words)' 'email' 'public key'
 ```
 
 Example: 
