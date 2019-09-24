@@ -3,13 +3,26 @@ Recover your Tezos if you are missing a single seed word
 
 Did you forget to write down one of your seed words? This utility will recover your seed word! Even if you don't know which one is missing.
 
-<b>This program needs your private information to work. Please run on a computer not connected in any way to the internet. Please move your funds to a new address as soon as you recover your information. Your private infomation is printed to the screen and stored in your computer's history. Again, USE ON A DISCONNECTED COMPUTER THAT YOU CAN DESTROY!</b>
+<b>This program needs your private information to work. Please run on a computer not connected in any way to the internet. Please move your funds to a new address as soon as you recover your information. Your private information is printed to the screen and stored in your computer's history. Again, USE ON A DISCONNECTED COMPUTER THAT YOU CAN DESTROY!</b>
 
 OK, at this point you know to protect your information. Please use caution. 
 
+This program has been tested on Ubuntu 18.04 and Python 3.6.7
+
+## Prerequisites
+ 
+You need to install the following for this program to work. Please do this before you use this script. Once you are done with the prerequisites, please disconnect from the internet. 
+
+Type in the following to install the prerequisites:
+```
+sudo apt-get -y update
+sudo apt-get -y python3
+suod apt -y install python3-pysodium
+```
+
 ## TezosMissingSeedWordFinder.py
 
-Please note that running this requires you to type in your private infomation, that infomaiton is stored in your OS. Please use on an offline computer that you can destroy. It is your responsability to keep your information safe. 
+Please note that running this requires you to type in your private information, that information is stored in your OS. Please use on an offline computer that you can destroy. It is your responsibility to keep your information safe. 
 
 
 Usage: 
