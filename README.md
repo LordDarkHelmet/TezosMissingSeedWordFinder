@@ -13,6 +13,9 @@ This program has been tested on Ubuntu 18.04 and Python 3.6.7
  
 You need to install the following for this program to work. Please do this before you use this script. Once you are done with the prerequisites, please disconnect from the internet. 
 
+Python3: This runs the script
+pysodium: This has libraries needed to validate your information
+
 Type in the following to install the prerequisites:
 ```
 sudo apt-get -y update
