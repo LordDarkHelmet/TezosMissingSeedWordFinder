@@ -1,4 +1,4 @@
-# TezosMissingSeedWordFinder
+# Tezos Missing Mnemonic Seed Word Finder
 Recover your Tezos if you are missing a single seed word
 
 Did you forget to write down one of your seed words? This utility will recover your seed word! Even if you don't know which one is missing.
